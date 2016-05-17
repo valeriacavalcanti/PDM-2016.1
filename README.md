@@ -6,8 +6,7 @@
 
 ## Android
 
-##### 10/05/2016
-> Primeiro Projeto Android
-
-##### 17/05/2016
-> Crementando
+Data | Projeto
+--- | ---
+10/05/2016 | Primeiro Projeto Android
+17/05/2016 | Crementar
