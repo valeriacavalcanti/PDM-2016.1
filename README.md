@@ -6,11 +6,6 @@
 
 ## Android
 
-Data | Projeto
---- | ---
-10/05/2016 | Primeiro Projeto Android
-17/05/2016 | Crementador
-
 \# | Data | Projeto
 --- | --- | ---
 01 | 10/05/2016 | Primeiro Projeto Android
