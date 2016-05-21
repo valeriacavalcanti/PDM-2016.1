@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="login">Digite o login</string>
+    <string name="senha">Digite sua senha</string>
+    <string name="botao">Login</string>
+</resources>
