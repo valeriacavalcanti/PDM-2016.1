@@ -6,9 +6,9 @@
 
 ## Android
 
-\# | Data | Projeto
---- | --- | ---
-01 | 10/05/2016 | Primeiro Projeto Android
-02 | 17/05/2016 | Crementador
-03 | 20/05/2016 | Super Mario
-04 | 21/05/2016 | Login
+\# | Data | Projeto | Conteúdo
+--- | --- | --- | ---
+01 | 10/05/2016 | Primeiro Projeto Android | Estrutura Projeto Android Studio
+02 | 17/05/2016 | Crementador | Interação entre Activity (Controller ) com o XML (View)
+03 | 20/05/2016 | Super Mario | Ciclo de Vida (Activity) e Listener
+04 | 21/05/2016 | Login | Resolução de Tela e Toast
