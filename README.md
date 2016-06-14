@@ -16,3 +16,4 @@
 07 | 31/05/2016 | Tela | Navegação entre Activities
 08 e 09 | 03/06/2016 | Intent | Activity e Intent Filter
 10 e 11 | 07/06/2016 | Listagem de Números | ListActivity e Adapter
+12 | 14/06/2016 | Acessando a Câmera
