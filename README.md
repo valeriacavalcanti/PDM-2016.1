@@ -18,4 +18,4 @@
 10 e 11 | 07/06/2016 | Listagem de Números | ListActivity e Adapter
 12 | 14/06/2016 | Acessando a Câmera | Intent, Intent Filter (MediaStore)
 13 | 17/06/2016 | App Turma PDM | BaseAdapter
-
+14 | 21/06/2016 | Carregador | BroadcastReceiver e TextToSpeech
