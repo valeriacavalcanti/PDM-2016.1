@@ -20,4 +20,4 @@
 13 | 17/06/2016 | App Turma PDM | BaseAdapter
 14 | 21/06/2016 | Carregador | BroadcastReceiver e TextToSpeech
 15 | 28/06/2016 | GPS | LocationManager e LocationListener
-
+16 | 01/07/2016 | BlackList | Banco de Dados (SQLite)
