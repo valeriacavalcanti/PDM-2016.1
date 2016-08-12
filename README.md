@@ -29,4 +29,4 @@
 17 | 29/07/2016 | Pokemon | Interface: Outlet e Action
 18 | 02/08/2016 | Pokemon | Navegação de Telas Simples e Ciclo de Vida da View
 19 | 09/08/2016 | Pokemon | NavigationController e UIAlertController
-
+20 | 12/08/2016 | Pokemon | NavigationController e UITableViewController
