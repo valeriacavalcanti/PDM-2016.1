@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843D5CCD1D6794B800D5F4EE /* CelulaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843D5CCC1D6794B800D5F4EE /* CelulaTableViewCell.swift */; };
+		8496C8BF1D63AC2D0059614F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496C8BE1D63AC2D0059614F /* AppDelegate.swift */; };
+		8496C8C11D63AC2D0059614F /* FormularioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496C8C01D63AC2D0059614F /* FormularioViewController.swift */; };
+		8496C8C41D63AC2D0059614F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8496C8C21D63AC2D0059614F /* Main.storyboard */; };
+		8496C8C61D63AC2D0059614F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8496C8C51D63AC2D0059614F /* Assets.xcassets */; };
+		8496C8C91D63AC2E0059614F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8496C8C71D63AC2E0059614F /* LaunchScreen.storyboard */; };
+		8496C8D41D63AF1D0059614F /* ListarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496C8D31D63AF1D0059614F /* ListarTableViewController.swift */; };
+		8496C8D61D63B6690059614F /* Sobremesa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496C8D51D63B6690059614F /* Sobremesa.swift */; };
+		8496C8D81D63B6B80059614F /* Cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496C8D71D63B6B80059614F /* Cadastro.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		843D5CCC1D6794B800D5F4EE /* CelulaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelulaTableViewCell.swift; sourceTree = "<group>"; };
+		8496C8BB1D63AC2D0059614F /* Gostei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gostei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8496C8BE1D63AC2D0059614F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8496C8C01D63AC2D0059614F /* FormularioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularioViewController.swift; sourceTree = "<group>"; };
+		8496C8C31D63AC2D0059614F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8496C8C51D63AC2D0059614F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8496C8C81D63AC2E0059614F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8496C8CA1D63AC2E0059614F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8496C8D31D63AF1D0059614F /* ListarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListarTableViewController.swift; sourceTree = "<group>"; };
+		8496C8D51D63B6690059614F /* Sobremesa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sobremesa.swift; sourceTree = "<group>"; };
+		8496C8D71D63B6B80059614F /* Cadastro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cadastro.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8496C8B81D63AC2D0059614F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8496C8B21D63AC2D0059614F = {
+			isa = PBXGroup;
+			children = (
+				8496C8BD1D63AC2D0059614F /* Gostei */,
+				8496C8BC1D63AC2D0059614F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8496C8BC1D63AC2D0059614F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8496C8BB1D63AC2D0059614F /* Gostei.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8496C8BD1D63AC2D0059614F /* Gostei */ = {
+			isa = PBXGroup;
+			children = (
+				8496C8D21D63AC740059614F /* controller */,
+				8496C8D11D63AC6D0059614F /* view */,
+				8496C8D01D63AC670059614F /* model */,
+				8496C8BE1D63AC2D0059614F /* AppDelegate.swift */,
+				8496C8C51D63AC2D0059614F /* Assets.xcassets */,
+				8496C8CA1D63AC2E0059614F /* Info.plist */,
+			);
+			path = Gostei;
+			sourceTree = "<group>";
+		};
+		8496C8D01D63AC670059614F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8496C8D51D63B6690059614F /* Sobremesa.swift */,
+				8496C8D71D63B6B80059614F /* Cadastro.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		8496C8D11D63AC6D0059614F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8496C8C21D63AC2D0059614F /* Main.storyboard */,
+				8496C8C71D63AC2E0059614F /* LaunchScreen.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		8496C8D21D63AC740059614F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				8496C8C01D63AC2D0059614F /* FormularioViewController.swift */,
+				8496C8D31D63AF1D0059614F /* ListarTableViewController.swift */,
+				843D5CCC1D6794B800D5F4EE /* CelulaTableViewCell.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8496C8BA1D63AC2D0059614F /* Gostei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8496C8CD1D63AC2E0059614F /* Build configuration list for PBXNativeTarget "Gostei" */;
+			buildPhases = (
+				8496C8B71D63AC2D0059614F /* Sources */,
+				8496C8B81D63AC2D0059614F /* Frameworks */,
+				8496C8B91D63AC2D0059614F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gostei;
+			productName = Gostei;
+			productReference = 8496C8BB1D63AC2D0059614F /* Gostei.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8496C8B31D63AC2D0059614F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					8496C8BA1D63AC2D0059614F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8496C8B61D63AC2D0059614F /* Build configuration list for PBXProject "Gostei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8496C8B21D63AC2D0059614F;
+			productRefGroup = 8496C8BC1D63AC2D0059614F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8496C8BA1D63AC2D0059614F /* Gostei */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8496C8B91D63AC2D0059614F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8496C8C91D63AC2E0059614F /* LaunchScreen.storyboard in Resources */,
+				8496C8C61D63AC2D0059614F /* Assets.xcassets in Resources */,
+				8496C8C41D63AC2D0059614F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8496C8B71D63AC2D0059614F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8496C8C11D63AC2D0059614F /* FormularioViewController.swift in Sources */,
+				843D5CCD1D6794B800D5F4EE /* CelulaTableViewCell.swift in Sources */,
+				8496C8D81D63B6B80059614F /* Cadastro.swift in Sources */,
+				8496C8BF1D63AC2D0059614F /* AppDelegate.swift in Sources */,
+				8496C8D41D63AF1D0059614F /* ListarTableViewController.swift in Sources */,
+				8496C8D61D63B6690059614F /* Sobremesa.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8496C8C21D63AC2D0059614F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8496C8C31D63AC2D0059614F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8496C8C71D63AC2E0059614F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8496C8C81D63AC2E0059614F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8496C8CB1D63AC2E0059614F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8496C8CC1D63AC2E0059614F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8496C8CE1D63AC2E0059614F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gostei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.ifpb.si.pdm.Gostei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8496C8CF1D63AC2E0059614F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gostei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.edu.ifpb.si.pdm.Gostei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8496C8B61D63AC2D0059614F /* Build configuration list for PBXProject "Gostei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8496C8CB1D63AC2E0059614F /* Debug */,
+				8496C8CC1D63AC2E0059614F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8496C8CD1D63AC2E0059614F /* Build configuration list for PBXNativeTarget "Gostei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8496C8CE1D63AC2E0059614F /* Debug */,
+				8496C8CF1D63AC2E0059614F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8496C8B31D63AC2D0059614F /* Project object */;
+}
