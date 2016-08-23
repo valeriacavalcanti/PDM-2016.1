@@ -32,3 +32,5 @@
 20 | 12/08/2016 | Pokemon | NavigationController e UITableViewController
 21 | 16/08/2016 | Gostei | NavigationController, NavigationItem, NSObject
 22 | 19/08/2016 | Gostei | TableViewController e TableViewCell
+23 | 23/08/2016 | Nomes | Persistência com Arquivo
+
